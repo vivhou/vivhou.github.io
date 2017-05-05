@@ -5,7 +5,8 @@ body {
 }
 
 body {
-    @include serif-font;
+    background: url("../img/header.jpg") !important;
+    font-family: 'Josefin Sans', sans-serif !important;
 }
 
 hr {
@@ -26,9 +27,20 @@ a {
         color: darken($theme-primary, 10%);
     }
 }
+header .header-content .header-content-inner h1 {
+    text-transform: none !important; 
+}
 
-h1,
-h2,
+.navbar-default .nav > li > a,
+ {
+color: #78917C !important;
+}
+
+h1, h2{
+    font-family: 'Dancing Script', cursive;
+    color: #78917C;
+}
+
 h3,
 h4,
 h5,
