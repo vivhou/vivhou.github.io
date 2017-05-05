@@ -33,7 +33,14 @@ header .header-content .header-content-inner h1 {
 
 .navbar-default .nav > li > a,
  {
-color: #78917C !important;
+    color: #78917C !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    font-family: 'Dancing Script', cursive !important;
+    text-transform: none !important;
+    font-size: 2.5em !important; 
 }
 
 h1, h2{
@@ -54,13 +61,31 @@ p {
     margin-bottom: 20px;
 }
 
-.btn {
-    border-radius: none !important;
+
+// Button Styles
+
+
+.btn-primary:hover {
+    background-color: #78917C !important;
+    color: #fff !important;
 }
 
-.btn-primary {
-    background-color: none !important;
+.btn-xl {
+    padding: 7px 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+
 }
+.btn-primary {
+    border: 2px !important;
+    background-color: transparent !important;
+    color: #78917C !important;
+    border: 2px solid #78917C !important;
+    font-size: 16px;
+
+}
+
+
 
 .bg-primary {
     background-color: none !important;
@@ -132,7 +157,7 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: #78917C;
             &:hover,
             &:focus {
                 color: white;
@@ -314,26 +339,7 @@ header {
     padding-left:0;
 }
 
-// Button Styles
-.btn-default {
-    @include button-variant($theme-dark, white, white);
-}
 
-.btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
-}
-
-.btn {
-    @include sans-serif-font;
-    border: none;
-    border-radius: 300px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.btn-xl {
-    padding: 15px 30px;
-}
 
 // Contact
 #contact .fa {
