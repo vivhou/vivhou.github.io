@@ -44,8 +44,14 @@ p {
   line-height: 1.5;
   margin-bottom: 20px; }
 
+.btn {
+  border-radius: none !important; }
+
+.btn-primary {
+  background-color: none !important; }
+
 .bg-primary {
-  background-color: #F05F40; }
+  background-color: none !important; }
 
 .bg-dark {
   background-color: #222;
@@ -256,9 +262,10 @@ header {
     background-color: #222; }
 
 .btn-primary {
-  color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  color: #78917C;
+  background-color: transparent;
+  border-color: #78917C;
+  border-outline: #78917C;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
@@ -277,8 +284,9 @@ header {
 
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  border: none;
-  border-radius: 300px;
+  border-color: #78917C;
+  border-width: 2px;
+  border-radius: none;
   font-weight: 700;
   text-transform: uppercase; }
 
