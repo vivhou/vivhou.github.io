@@ -16,7 +16,10 @@ hr {
 }
 
 hr.light {
-    border-color: white;
+    border-color: #CF959A;
+}
+
+p {color: #78917C;
 }
 
 a {
@@ -30,11 +33,17 @@ a {
 header .header-content .header-content-inner h1 {
     text-transform: none !important; 
 }
-
+.bg-primary {
+    background-color: transparent !important;
+}
 .navbar-default .nav > li > a,
  {
     color: #78917C !important;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: #CF959A !important;
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -199,8 +208,6 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center;
-    background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
     .header-content {

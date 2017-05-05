@@ -13,7 +13,10 @@ hr {
   max-width: 50px; }
 
 hr.light {
-  border-color: white; }
+  border-color: #CF959A; }
+
+p {
+  color: #78917C; }
 
 a {
   -webkit-transition: all 0.35s;
@@ -26,9 +29,15 @@ a {
 header .header-content .header-content-inner h1 {
   text-transform: none !important; }
 
+.bg-primary {
+  background-color: transparent !important; }
+
 .navbar-default .nav > li > a {
   color: #78917C !important;
   font-family: 'Josefin Sans', sans-serif; }
+
+.navbar-default.affix .navbar-header .navbar-brand {
+  color: #CF959A !important; }
 
 .navbar-default .navbar-header .navbar-brand {
   font-family: 'Dancing Script', cursive !important;
@@ -152,8 +161,6 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: center;
-  background-image: url("../img/header.jpg");
   text-align: center;
   color: white; }
   header .header-content {
