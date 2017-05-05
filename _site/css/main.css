@@ -4,8 +4,9 @@ body {
   width: 100%; }
 
 body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; 
   background: url("../img/header.jpg");
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+}
 
 hr {
   border-color: #F05F40;
