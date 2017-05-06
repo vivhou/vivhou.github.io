@@ -7,6 +7,9 @@ body {
   background: url("../img/header.jpg") !important;
   font-family: 'Josefin Sans', sans-serif !important; }
 
+.btn-primary {
+  font-size: 1.4em !important; }
+
 hr {
   border-color: #F05F40;
   border-width: 3px;
@@ -16,7 +19,8 @@ hr.light {
   border-color: #CF959A; }
 
 p {
-  color: #78917C; }
+  color: #78917C;
+  font-size: 1.3em !important; }
 
 a {
   -webkit-transition: all 0.35s;

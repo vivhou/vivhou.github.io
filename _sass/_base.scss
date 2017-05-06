@@ -9,6 +9,10 @@ body {
     font-family: 'Josefin Sans', sans-serif !important;
 }
 
+.btn-primary {
+    font-size: 1.4em !important;
+}
+
 hr {
     border-color: $theme-primary;
     border-width: 3px;
@@ -19,7 +23,9 @@ hr.light {
     border-color: #CF959A;
 }
 
-p {color: #78917C;
+p {
+    color: #78917C;
+    font-size: 1.3em !important;
 }
 
 a {
