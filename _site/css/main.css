@@ -10,6 +10,13 @@ body {
 .btn-primary {
   font-size: 1.4em !important; }
 
+.portfolio-box .portfolio-box-caption {
+  background: #CF959A !important; }
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-family: 'Josefin Sans', sans-serif !important; }
+
 hr {
   border-color: #F05F40;
   border-width: 3px;
