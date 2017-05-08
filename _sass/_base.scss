@@ -83,6 +83,10 @@ h6 {
     @include sans-serif-font;
 }
 
+.top-space {
+    margin-top: 200px;
+}
+
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -200,6 +204,8 @@ aside {
                 color: white;
             }
         }
+
+
         &.affix {
             background-color: white;
             border-color: rgba($theme-dark, .5);

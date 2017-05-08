@@ -68,6 +68,9 @@ h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
+.top-space {
+  margin-top: 200px; }
+
 p {
   font-size: 16px;
   line-height: 1.5;
@@ -136,7 +139,7 @@ aside {
       color: #F05F40; }
   .navbar-default .nav > li.active > a,
   .navbar-default .nav > li.active > a:focus {
-    color: #F05F40;
+    color: #F05F40 !important;
     background-color: transparent; }
     .navbar-default .nav > li.active > a:hover,
     .navbar-default .nav > li.active > a:focus:hover {
