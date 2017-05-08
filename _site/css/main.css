@@ -44,7 +44,7 @@ header .header-content .header-content-inner h1 {
   text-transform: none !important; }
 
 .bg-primary {
-  background-color: rgba(255,255,255, 0.5) !important; }
+  background-color: transparent !important; }
 
 .navbar-default .nav > li > a {
   color: #78917C !important;
@@ -95,7 +95,8 @@ p {
   border: 2px solid #78917C !important;
   font-size: 16px; }
 
-
+.bg-primary {
+  background-color: rgba(255, 255, 255, 0.4) !important; }
 
 .bg-dark {
   background-color: #222;
