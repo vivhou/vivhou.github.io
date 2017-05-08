@@ -22,6 +22,10 @@ body {
     font-family: 'Josefin Sans', sans-serif !important;
 }
 
+.navbar-default .navbar-header .navbar-brand {
+    color: #CF959A !important
+}
+
 hr {
     border-color: $theme-primary;
     border-width: 3px;
@@ -88,7 +92,9 @@ p {
 
 // Button Styles
 
-
+.navbar-default .nav > li.active > a, .navbar-default .nav > li.active > a:focus {
+    color: #78917C !important;
+}
 .btn-primary:hover {
     background-color: #78917C !important;
     color: #fff !important;
